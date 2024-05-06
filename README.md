@@ -28,7 +28,7 @@ An end-to-end testing framework for web applications, providing a robust and pow
 ### msw: 
 MSW (Mock Service Worker): Simplifies API mocking for development and testing by intercepting requests at the network level and providing a way to mock responses with ease.
 
-🐵 Features：
+# 🐵 Features：
 Movies lised by genre 
 Movies sorted by rating
 Search by Name with debounce
@@ -36,31 +36,33 @@ Fully responsive
 Well structured
 
 
-🏗️ Project Src Dir Structure
+# 🏗️ Project Src Dir Structure
 src
-   assets: static files
-     icons
-     images
-   components：components going to be used for the whole project
-      layouts:
-         app: layout for main pages
-         others: layout for other pages (404/auth)
-      ui: components used in the whole components (modal/hints)
-   lib:
-      api:fetch data encapulation
-      others:...
-   mocks: for msw use case
-   pages:
-      app:
-          *:app pages(use app layout)
-            components：
-               __test__：unit test
-      others:...
-   routes: 
-      modules: setup routes with clear structure
-   stores:pinia 
-   styles:style reset file / scss varible file / global scss file setup
-   types: ts type setup for the whole project
-   utils: tools for the whole application
+- assets: static files
+   - icons
+   - images
+-  components：components going to be used for the whole project
+      - layouts:
+        - app: layout for main pages
+        - others: layout for other pages (404/auth)
+      - ui: components used in the whole components (modal/hints)
+-   lib:
+      - api:fetch data encapulation
+      - others:...
+   - mocks: for msw use case
+   - pages:
+      - app:
+          - *:app pages(use app layout)
+            - components：
+               - __test__：unit test
+      - others:...
+   - routes: 
+      - modules: setup routes with clear structure
+   - stores:pinia 
+   - styles:style reset file / scss varible file / global scss file setup
+   - types: ts type setup for the whole project
+   - utils: tools for the whole application
    
+   
+
 
