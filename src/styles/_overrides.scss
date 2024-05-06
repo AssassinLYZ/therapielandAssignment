@@ -1,0 +1,9 @@
+@use './_variables.scss' as variables;
+
+#app,
+html,
+body {
+  font-family: 'Inter', 'sans-serif' !important;
+  background-color: #141414;
+  color: white;
+}
