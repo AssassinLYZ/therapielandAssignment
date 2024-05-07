@@ -1,5 +1,5 @@
 <template>
-  <div class="list-warpper" :style="{ width: itemNumber * 146 + 16 + 'px' }">
+  <div class="list-warpper" :style="{ width: itemNumber * 146 + 18 + 'px' }">
     <div class="title" :style="{ width: itemNumber * 146 - 20 + 'px' }">
       <p>Search Result</p>
     </div>

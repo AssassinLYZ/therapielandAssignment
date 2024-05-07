@@ -63,6 +63,10 @@ src
    - types: ts type setup for the whole project
    - utils: tools for the whole application
    
+### Run the application:
+Node version：V21.1.0
+pnpm: 9.0.6
    
+
 
 
