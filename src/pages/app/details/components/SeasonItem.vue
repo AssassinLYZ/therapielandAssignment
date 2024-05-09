@@ -15,7 +15,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { computed, ref, defineProps } from 'vue'
+import { computed, ref } from 'vue'
 import { movieStore } from '@/stores/movieStore'
 import EpisodeList from './EpisodeList.vue'
 const props = defineProps<{

@@ -4,7 +4,7 @@ import movieService from '@/lib/api/movies'
 interface State {
   movieList: Movie[]
   genreList: Record<string, Movie[]>
-  filteredMovies: Movie[]
+  filteredMovies: FilteredMovie[]
   selectedMovie: Movie
   allGenres: string[]
   filterInput: string
@@ -79,13 +79,11 @@ export const movieStore = defineStore('movieStore', {
     async getSelectedMovie(id: number) {
       const data = await movieService.fetchSingleShow(id)
       this.selectedMovie = data
-      console.log(data)
     },
 
     async getFilteredMovies() {
       const data = await movieService.fetchSearchResults(this.filterInput)
       this.filteredMovies = data
-      console.log(data)
     },
   },
 })

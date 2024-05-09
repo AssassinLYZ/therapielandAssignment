@@ -9,7 +9,9 @@ import { worker } from './mocks/broswer'
 
 async function prepareApp() {
   if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') {
-    // return worker.start()
+    // return worker.start({
+    //   onUnhandledRequest: 'bypass',
+    // })
   }
 
   return Promise.resolve()

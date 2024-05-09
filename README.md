@@ -64,9 +64,16 @@ src
    - utils: tools for the whole application
    
 ### Run the application:
-Node version：V21.1.0
-pnpm: 9.0.6
-   
+  - Node version：V21.1.0
+  - pnpm: 9.0.6
+      
+### Note: 
+The project is built with pnpm, Please run
+``` pnpm i ```
+
+then
+
+``` pnpm run dev ```
 
 
 

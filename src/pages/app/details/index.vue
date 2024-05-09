@@ -21,7 +21,6 @@ const route = useRoute()
 
 onMounted(async () => {
   await movieDataStore.getSelectedMovie(Number(route.params.id))
-  console.log(movieDataStore.selectedShowSeasons)
 })
 </script>
 

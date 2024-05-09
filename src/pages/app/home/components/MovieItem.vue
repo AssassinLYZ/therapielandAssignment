@@ -9,7 +9,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import { Icons } from '@/assets/icons'
 import { Images } from '@/assets/image'
 import { useRouter } from 'vue-router'

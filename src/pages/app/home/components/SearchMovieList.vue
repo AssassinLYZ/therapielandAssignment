@@ -9,7 +9,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { computed, defineProps, ref } from 'vue'
+import { computed } from 'vue'
 interface SelectedMovie {
   show: Movie
 }

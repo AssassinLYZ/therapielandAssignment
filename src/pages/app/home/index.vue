@@ -36,11 +36,9 @@ watch(
   debounce(async (newValue: string, oldValue: string) => {
     if (newValue !== '') {
       await movieDataStore.getFilteredMovies()
-      console.log(filteredMovies, 124)
     } else {
-      console.log(32435)
+      console.log('ok')
     }
-  }, 500),
-  { deep: true }
+  }, 500)
 )
 </script>

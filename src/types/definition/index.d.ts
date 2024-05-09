@@ -11,3 +11,21 @@ interface Movie {
   premiered: string
   _embedded?: Record<string, any>
 }
+
+interface FilteredMovie {
+  score: number
+  show: Movie
+}
+
+interface Episodes {
+  url?: string
+  name: string
+  summary: string
+  number: number
+  image: Record<string, string>
+  person: {
+    image: {
+      medium: string
+    }
+  }
+}

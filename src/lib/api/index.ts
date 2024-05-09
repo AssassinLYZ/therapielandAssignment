@@ -26,12 +26,7 @@ const requestHandler = async (requestConfig: AdaptAxiosRequestConfig) => {
   return requestConfig
 }
 
-const responseHandler = async (response: AxiosResponse) => {
-  return response
-}
-
 axiosInstance.interceptors.request.use((requestConfig) => requestHandler(requestConfig))
-axiosInstance.interceptors.response.use((response) => responseHandler(response))
 
 axiosInstance.interceptors.response.use(
   (response) => response,

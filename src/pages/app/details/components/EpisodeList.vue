@@ -24,7 +24,7 @@
 </template>
 <script setup lang="ts">
 defineProps<{
-  episodesData: any
+  episodesData: Episodes[]
 }>()
 </script>
 <style scoped lang="scss">

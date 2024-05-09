@@ -3,9 +3,9 @@ import { BASE_URL_API } from '@/lib/api'
 
 const urlConstants = {
   apiBaseUrl: BASE_URL_API, // https://api.tvmaze.com
-  fetchShowsUrl: `${BASE_URL_API}/shows`, // https://api.tvmaze.com/shows
+  fetchShowsUrl: `/shows`, // https://api.tvmaze.com/shows
   seasonsCastEpisodesEmbed: `?embed[]=episodes&embed[]=cast&embed[]=seasons`,
-  searchShowsUrl: `${BASE_URL_API}/search/shows?q=`, // https://api.tvmaze.com/search/shows?q=
+  searchShowsUrl: `/search/shows?q=`, // https://api.tvmaze.com/search/shows?q=
 }
 
 const fetchAllShows = async (page: number) => {
